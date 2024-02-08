@@ -1,7 +1,9 @@
 from aiogram import executor
 
+import filters  # noqa
+import handlers  # noqa
+import middlewares  # noqa
 from loader import dp
-import middlewares, filters, handlers
 from utils.notify_admins import on_startup_notify
 from utils.set_bot_commands import set_default_commands
 
